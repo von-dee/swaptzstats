@@ -7,6 +7,10 @@
     "spl"
   ],
   "tags": {
+    "stablecoin": {
+      "name": "stablecoin",
+      "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
+    },
     "hangzhounet": {
       "name": "hangzhounet",
       "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
@@ -30,6 +34,7 @@
             "decimals": 6,
             "logoURI": "ipfs://Qmf3brydfr8c6CKGUUu73Dd7wfBw66Zbzof5E1BWGeU222",
             "tags": [
+              "stablecoin",
               "hangzhounet",
               "FA12"
             ],
@@ -47,6 +52,7 @@
             "decimals": 6,
             "logoURI": "ipfs://QmcSH2iaipU1kqcQfZhV5b2CL6Rm8Q8agRwdk1xq38Y3sP",
             "tags": [
+              "stablecoin",
               "hangzhounet",
               "FA2"
             ],
@@ -64,6 +70,7 @@
             "decimals": 6,
             "logoURI": "ipfs://QmcSH2iaipU1kqcQfZhV5b2CL6Rm8Q8agRwdk1xq38Y3sP",
             "tags": [
+              "stablecoin",
               "hangzhounet",
               "FA12"
             ],
@@ -81,6 +88,7 @@
             "decimals": 18,
             "logoURI": "https://upload.wikimedia.org/wikipedia/commons/d/dd/S_logo.svg",
             "tags": [
+              "stablecoin",
               "hangzhounet",
               "FA12"
             ],
@@ -98,6 +106,7 @@
             "decimals": 18,
             "logoURI": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
             "tags": [
+              "stablecoin",
               "hangzhounet",
               "FA2"
             ],
@@ -115,6 +124,7 @@
             "decimals": 8,
             "logoURI": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
             "tags": [
+              "stablecoin",
               "hangzhounet",
               "FA2"
             ],
@@ -132,6 +142,7 @@
             "decimals": 6,
             "logoURI": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
             "tags": [
+              "stablecoin",
               "hangzhounet",
               "FA2"
             ],
@@ -149,6 +160,7 @@
             "decimals": 6,
             "logoURI": "https://www.clipartmax.com/png/middle/143-1437191_tinkerbell-by-prove-design-tinkerbell-by-prove-design-tinker-dota-2-png.png",
             "tags": [
+              "stablecoin",
               "hangzhounet",
               "FA2"
             ],
