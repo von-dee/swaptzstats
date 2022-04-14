@@ -79,7 +79,7 @@
     },
     {
       "chainId": 101,
-      "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
+      "address": "9LzCMqDgTKYz9Drzqnpgee3SGa89up3a247ypMj2xrqM",
       "symbol": "QUIPU",
       "name": "Quipuswap Governance Token",
       "decimals": 8,
@@ -99,7 +99,7 @@
     },
     {
       "chainId": 101,
-      "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
+      "address": "HZRCwxP2Vq9PCpPXooayhJ2bxTpo5xfpQrwB1svh332p",
       "symbol": "FA12",
       "name": "FA12 Token",
       "decimals": 8,
@@ -119,7 +119,7 @@
     },
     {
       "chainId": 101,
-      "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
+      "address": "DQP2edsDc4bApMaQ4pRim6AE18yCjHpohFLhnWbxc4um",
       "symbol": "FA1218",
       "name": "FA12 18 Decimals Token",
       "decimals": 8,
@@ -139,7 +139,7 @@
     },
     {
       "chainId": 101,
-      "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
+      "address": "EjmyN6qEC1Tf1JxiG1ae7UTJhUxSwk1TCWNWqxWV4J6o",
       "symbol": "TS",
       "name": "TypeScript Token",
       "decimals": 8,
@@ -159,7 +159,7 @@
     },
     {
       "chainId": 101,
-      "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
+      "address": "EzfgjvkSwthhgHaceR3LnKXUoRkP6NUhfghdaHAj1tUv",
       "symbol": "RCT",
       "name": "React Token",
       "decimals": 8,
@@ -179,7 +179,7 @@
     },
     {
       "chainId": 101,
-      "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
+      "address": "9vMJfxuKxXBoEa7rM12mYLMwTacLMLDJqHozw96WQL8i",
       "symbol": "ANG",
       "name": "Angular Token",
       "decimals": 8,
@@ -199,7 +199,7 @@
     },
     {
       "chainId": 101,
-      "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
+      "address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
       "symbol": "TKR",
       "name": "Tinker",
       "decimals": 8,
