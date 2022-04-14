@@ -63,7 +63,7 @@
       "symbol": "FA12",
       "name": "FA12 Token",
       "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC/logo.png",
+      "logoURI": "ipfs://QmcSH2iaipU1kqcQfZhV5b2CL6Rm8Q8agRwdk1xq38Y3sP",
       "tags": [
         "wrapped",
         "ethereum"
