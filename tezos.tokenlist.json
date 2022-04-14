@@ -60,8 +60,28 @@
     {
       "chainId": 101,
       "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
-      "symbol": "FA12",
-      "name": "FA12 Token",
+      "symbol": "TEZ",
+      "name": "Tezos",
+      "decimals": 8,
+      "logoURI": "ipfs://QmcSH2iaipU1kqcQfZhV5b2CL6Rm8Q8agRwdk1xq38Y3sP",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x111111111117dC0aa78b770fA6A738034120C302",
+        "assetContract": "https://etherscan.io/address/0x111111111117dC0aa78b770fA6A738034120C302",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "1inch",
+        "serumV3Usdc": "EQcNRGwogvYJDizG9Ek1qf6syi5UghkYDcUwgmycawYU",
+        "serumV3Usdt": "B3UpqhaGZc9yXhELknAAXuAoKzCk4QAoqaiVUffgMQBH"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
+      "symbol": "QUIPU",
+      "name": "Quipuswap Governance Token",
       "decimals": 8,
       "logoURI": "ipfs://QmcSH2iaipU1kqcQfZhV5b2CL6Rm8Q8agRwdk1xq38Y3sP",
       "tags": [
@@ -100,8 +120,8 @@
     {
       "chainId": 101,
       "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
-      "symbol": "FA12",
-      "name": "FA12 Token",
+      "symbol": "FA1218",
+      "name": "FA12 18 Decimals Token",
       "decimals": 8,
       "logoURI": "ipfs://QmcSH2iaipU1kqcQfZhV5b2CL6Rm8Q8agRwdk1xq38Y3sP",
       "tags": [
@@ -120,8 +140,8 @@
     {
       "chainId": 101,
       "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
-      "symbol": "FA12",
-      "name": "FA12 Token",
+      "symbol": "TS",
+      "name": "TypeScript Token",
       "decimals": 8,
       "logoURI": "ipfs://QmcSH2iaipU1kqcQfZhV5b2CL6Rm8Q8agRwdk1xq38Y3sP",
       "tags": [
@@ -140,8 +160,8 @@
     {
       "chainId": 101,
       "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
-      "symbol": "FA12",
-      "name": "FA12 Token",
+      "symbol": "RCT",
+      "name": "React Token",
       "decimals": 8,
       "logoURI": "ipfs://QmcSH2iaipU1kqcQfZhV5b2CL6Rm8Q8agRwdk1xq38Y3sP",
       "tags": [
@@ -160,8 +180,8 @@
     {
       "chainId": 101,
       "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
-      "symbol": "FA12",
-      "name": "FA12 Token",
+      "symbol": "ANG",
+      "name": "Angular Token",
       "decimals": 8,
       "logoURI": "ipfs://QmcSH2iaipU1kqcQfZhV5b2CL6Rm8Q8agRwdk1xq38Y3sP",
       "tags": [
@@ -180,28 +200,8 @@
     {
       "chainId": 101,
       "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
-      "symbol": "FA12",
-      "name": "FA12 Token",
-      "decimals": 8,
-      "logoURI": "ipfs://QmcSH2iaipU1kqcQfZhV5b2CL6Rm8Q8agRwdk1xq38Y3sP",
-      "tags": [
-        "wrapped",
-        "ethereum"
-      ],
-      "extensions": {
-        "address": "0x111111111117dC0aa78b770fA6A738034120C302",
-        "assetContract": "https://etherscan.io/address/0x111111111117dC0aa78b770fA6A738034120C302",
-        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
-        "coingeckoId": "1inch",
-        "serumV3Usdc": "EQcNRGwogvYJDizG9Ek1qf6syi5UghkYDcUwgmycawYU",
-        "serumV3Usdt": "B3UpqhaGZc9yXhELknAAXuAoKzCk4QAoqaiVUffgMQBH"
-      }
-    },
-    {
-      "chainId": 101,
-      "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
-      "symbol": "FA12",
-      "name": "FA12 Token",
+      "symbol": "TKR",
+      "name": "Tinker",
       "decimals": 8,
       "logoURI": "ipfs://QmcSH2iaipU1kqcQfZhV5b2CL6Rm8Q8agRwdk1xq38Y3sP",
       "tags": [
