@@ -34,167 +34,26 @@
   },
   "timestamp": "2021-03-03T19:57:21+0000",
   "tokens":[
-          {
-            "chainId": 101,
-            "address": "tez",
-            "symbol": "TEZ",
-            "name": "Tezos",
-            "decimals": 6,
-            "logoURI": "ipfs://Qmf3brydfr8c6CKGUUu73Dd7wfBw66Zbzof5E1BWGeU222",
-            "tags": [
-              "wrapped",
-              "ethereum",
-              "stablecoin",
-              "hangzhounet",
-              "FA12"
-            ],
-            "extensions": {
-              "website": "https://solatoken.net/",
-              "telegram": "https://t.me/solatokennet",
-              "twitter": "https://twitter.com/EcoSolana"
-            }
-          },
-          {
-            "chainId": 101,
-            "address": "KT1VowcKqZFGhdcDZA3UN1vrjBLmxV5bxgfJ",
-            "symbol": "QUIPU",
-            "name": "Quipuswap Governance Token",
-            "decimals": 6,
-            "logoURI": "ipfs://QmcSH2iaipU1kqcQfZhV5b2CL6Rm8Q8agRwdk1xq38Y3sP",
-            "tags": [
-              "wrapped",
-              "ethereum",
-              "stablecoin",
-              "hangzhounet",
-              "FA2"
-            ],
-            "extensions": {
-              "website": "https://solatoken.net/",
-              "telegram": "https://t.me/solatokennet",
-              "twitter": "https://twitter.com/EcoSolana"
-            }
-          },
-          {
-            "chainId": 101,
-            "address": "KT1Dr8Qf9at75uEvwN4QnGTNFfPMAr8KL4kK",
-            "symbol": "FA12",
-            "name": "FA12 Token",
-            "decimals": 6,
-            "logoURI": "ipfs://QmcSH2iaipU1kqcQfZhV5b2CL6Rm8Q8agRwdk1xq38Y3sP",
-            "tags": [
-              "wrapped",
-              "ethereum",
-              "stablecoin",
-              "hangzhounet",
-              "FA12"
-            ],
-            "extensions": {
-              "website": "https://solatoken.net/",
-              "telegram": "https://t.me/solatokennet",
-              "twitter": "https://twitter.com/EcoSolana"
-            }
-          },
-          {
-            "chainId": 101,
-            "address": "KT1P4m4Px5WzEnsoz9Ab22rfbcjfjegUoapA",
-            "symbol": "FA1218",
-            "name": "FA12 18 Decimals Token",
-            "decimals": 18,
-            "logoURI": "https://upload.wikimedia.org/wikipedia/commons/d/dd/S_logo.svg",
-            "tags": [
-              "wrapped",
-              "ethereum",
-              "stablecoin",
-              "hangzhounet",
-              "FA12"
-            ],
-            "extensions": {
-              "website": "https://solatoken.net/",
-              "telegram": "https://t.me/solatokennet",
-              "twitter": "https://twitter.com/EcoSolana"
-            }
-          },
-          {
-            "chainId": 101,
-            "address": "KT1CaWSNEnU6RR9ZMSSgD5tQtQDqdpw4sG83",
-            "symbol": "TS",
-            "name": "TypeScript Token",
-            "decimals": 18,
-            "logoURI": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
-            "tags": [
-              "wrapped",
-              "ethereum",
-              "stablecoin",
-              "hangzhounet",
-              "FA2"
-            ],
-            "extensions": {
-              "website": "https://solatoken.net/",
-              "telegram": "https://t.me/solatokennet",
-              "twitter": "https://twitter.com/EcoSolana"
-            }
-          },
-          {
-            "chainId": 101,
-            "address": "KT1QGgr6k1CDf4Svd18MtKNQukboz8JzRPd5",
-            "symbol": "RCT",
-            "name": "React Token",
-            "decimals": 8,
-            "logoURI": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-            "tags": [
-              "wrapped",
-              "ethereum",
-              "stablecoin",
-              "hangzhounet",
-              "FA2"
-            ],
-            "extensions": {
-              "website": "https://solatoken.net/",
-              "telegram": "https://t.me/solatokennet",
-              "twitter": "https://twitter.com/EcoSolana"
-            }
-          },
-          {
-            "chainId": 101,
-            "address": "KT1FGZHSZJD5BKeW4S8ZibAnL2tJtuLACd4N",
-            "symbol": "ANG",
-            "name": "Angular Token",
-            "decimals": 6,
-            "logoURI": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
-            "tags": [
-              "wrapped",
-              "ethereum",
-              "stablecoin",
-              "hangzhounet",
-              "FA2"
-            ],
-            "extensions": {
-              "website": "https://solatoken.net/",
-              "telegram": "https://t.me/solatokennet",
-              "twitter": "https://twitter.com/EcoSolana"
-            }
-          },
-          {
-            "chainId": 101,
-            "address": "KT1SaouedthKUtAujiBD232mZYGtKwpZ6mFD",
-            "symbol": "TKR",
-            "name": "Tinker",
-            "decimals": 6,
-            "logoURI": "https://www.clipartmax.com/png/middle/143-1437191_tinkerbell-by-prove-design-tinkerbell-by-prove-design-tinker-dota-2-png.png",
-            "tags": [
-              "wrapped",
-              "ethereum",
-              "stablecoin",
-              "hangzhounet",
-              "FA2"
-            ],
-            "extensions": {
-              "website": "https://solatoken.net/",
-              "telegram": "https://t.me/solatokennet",
-              "twitter": "https://twitter.com/EcoSolana"
-            }
-          }
-          
+    {
+      "chainId": 101,
+      "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
+      "symbol": "1INCH",
+      "name": "1INCH Token (Portal)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC/logo.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x111111111117dC0aa78b770fA6A738034120C302",
+        "assetContract": "https://etherscan.io/address/0x111111111117dC0aa78b770fA6A738034120C302",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "1inch",
+        "serumV3Usdc": "EQcNRGwogvYJDizG9Ek1qf6syi5UghkYDcUwgmycawYU",
+        "serumV3Usdt": "B3UpqhaGZc9yXhELknAAXuAoKzCk4QAoqaiVUffgMQBH"
+      }
+    }     
   ],
   "version": {
     "major": 0,
