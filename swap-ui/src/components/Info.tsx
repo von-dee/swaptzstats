@@ -7,11 +7,10 @@ import {
 } from "@material-ui/core";
 import { Info } from "@material-ui/icons";
 import PopupState, { bindTrigger, bindPopover } from "material-ui-popup-state";
-import { PublicKey } from "@solana/web3.js";
 import { useTokenMap } from "../context/TokenList";
 import { useSwapContext, useSwapFair } from "../context/Swap";
 import { useMint } from "../context/Token";
-import { useRoute, useMarketName, useBbo } from "../context/Dex";
+import { useRoute } from "../context/Dex";
 import { SettingsButton } from "./Settings";
 
 const useStyles = makeStyles(() => ({
@@ -159,13 +158,7 @@ function InfoDetails() {
         >
           Trade Route
         </Typography>
-        {route ? (
-          route.map((market: PublicKey) => {
-            return <MarketRoute key={market.toString()} market={market} />;
-          })
-        ) : (
-          <Typography color="textSecondary">Route not found</Typography>
-        )}
+        <Typography color="textSecondary">NaN</Typography>
       </div>
       <div style={{ marginTop: "15px" }}>
         <Typography
@@ -198,31 +191,6 @@ function InfoDetails() {
           );
         })}
       </div>
-    </div>
-  );
-}
-
-function MarketRoute({ market }: { market: PublicKey }) {
-  const marketName = useMarketName(market);
-  const bbo = useBbo(market);
-  return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-        marginTop: "5px",
-      }}
-    >
-      <Link
-        href={`https://dex.projectserum.com/#/market/${market.toString()}`}
-        target="_blank"
-        rel="noopener"
-      >
-        {marketName}
-      </Link>
-      <code style={{ marginLeft: "10px" }}>
-        {bbo && bbo.mid ? bbo.mid.toFixed(6) : "-"}
-      </code>
     </div>
   );
 }

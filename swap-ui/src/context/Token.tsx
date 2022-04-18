@@ -72,11 +72,11 @@ export function TokenContextProvider(props: any) {
 }
 
 function useTokenContext() {
-  const ctx = useContext(_TokenContext);
-  if (ctx === null) {
-    throw new Error("Context not available");
-  }
-  return ctx;
+  // const ctx = useContext(_TokenContext);
+  // if (ctx === null) {
+  //   throw new Error("Context not available");
+  // }
+  // return ctx;
 }
 
 // Null => none exists.
@@ -84,7 +84,7 @@ function useTokenContext() {
 export function useOwnedTokenAccount(
   mint?: PublicKey
 ): { publicKey: PublicKey; account: TokenAccount } | null | undefined {
-  const { provider } = useTokenContext();
+  // const { provider } = useTokenContext();
   const [, setRefresh] = useState(0);
   const tokenAccounts = _OWNED_TOKEN_ACCOUNTS_CACHE.filter(
     (account) => mint && account.account.mint.equals(mint)
@@ -100,56 +100,56 @@ export function useOwnedTokenAccount(
   );
 
   let tokenAccount = tokenAccounts[0];
-  const isSol = mint?.equals(SOL_MINT);
+  const isSol = false;
 
   // Stream updates when the balance changes.
   useEffect(() => {
     let listener: number;
     // SOL is special cased since it's not an SPL token.
     if (tokenAccount && isSol) {
-      listener = provider.connection.onAccountChange(
-        provider.wallet.publicKey,
-        (info: { lamports: number }) => {
-          const token = {
-            amount: new BN(info.lamports),
-            mint: SOL_MINT,
-          } as TokenAccount;
-          if (token.amount !== tokenAccount.account.amount) {
-            const index = _OWNED_TOKEN_ACCOUNTS_CACHE.indexOf(tokenAccount);
-            assert.ok(index >= 0);
-            _OWNED_TOKEN_ACCOUNTS_CACHE[index].account = token;
-            setRefresh((r) => r + 1);
-          }
-        }
-      );
+      // listener = provider.connection.onAccountChange(
+      //   provider.wallet.publicKey,
+      //   (info: { lamports: number }) => {
+      //     const token = {
+      //       amount: new BN(info.lamports),
+      //       mint: SOL_MINT,
+      //     } as TokenAccount;
+      //     if (token.amount !== tokenAccount.account.amount) {
+      //       const index = _OWNED_TOKEN_ACCOUNTS_CACHE.indexOf(tokenAccount);
+      //       assert.ok(index >= 0);
+      //       _OWNED_TOKEN_ACCOUNTS_CACHE[index].account = token;
+      //       setRefresh((r) => r + 1);
+      //     }
+      //   }
+      // );
     }
     // SPL tokens.
     else if (tokenAccount) {
-      listener = provider.connection.onAccountChange(
-        tokenAccount.publicKey,
-        (info) => {
-          if (info.data.length !== 0) {
-            try {
-              const token = parseTokenAccountData(info.data);
-              if (token.amount !== tokenAccount.account.amount) {
-                const index = _OWNED_TOKEN_ACCOUNTS_CACHE.indexOf(tokenAccount);
-                assert.ok(index >= 0);
-                _OWNED_TOKEN_ACCOUNTS_CACHE[index].account = token;
-                setRefresh((r) => r + 1);
-              }
-            } catch (error) {
-              console.log("Failed to decode token AccountInfo");
-            }
-          }
-        }
-      );
+      // listener = provider.connection.onAccountChange(
+      //   tokenAccount.publicKey,
+      //   (info) => {
+      //     if (info.data.length !== 0) {
+      //       try {
+      //         const token = parseTokenAccountData(info.data);
+      //         if (token.amount !== tokenAccount.account.amount) {
+      //           const index = _OWNED_TOKEN_ACCOUNTS_CACHE.indexOf(tokenAccount);
+      //           assert.ok(index >= 0);
+      //           _OWNED_TOKEN_ACCOUNTS_CACHE[index].account = token;
+      //           setRefresh((r) => r + 1);
+      //         }
+      //       } catch (error) {
+      //         console.log("Failed to decode token AccountInfo");
+      //       }
+      //     }
+      //   }
+      // );
     }
     return () => {
       if (listener) {
-        provider.connection.removeAccountChangeListener(listener);
+        // provider.connection.removeAccountChangeListener(listener);
       }
     };
-  }, [provider.connection, tokenAccount]);
+  }, []);
 
   if (mint === undefined) {
     return undefined;
@@ -163,7 +163,7 @@ export function useOwnedTokenAccount(
 }
 
 export function useMint(mint?: PublicKey): MintInfo | undefined | null {
-  const { provider } = useTokenContext();
+
   // Lazy load the mint account if needeed.
   const asyncMintInfo = useAsync(async () => {
     if (!mint) {
@@ -173,16 +173,8 @@ export function useMint(mint?: PublicKey): MintInfo | undefined | null {
       return _MINT_CACHE.get(mint.toString());
     }
 
-    const mintClient = new Token(
-      provider.connection,
-      mint,
-      TOKEN_PROGRAM_ID,
-      new Account()
-    );
-    const mintInfo = mintClient.getMintInfo();
-    _MINT_CACHE.set(mint.toString(), mintInfo);
-    return mintInfo;
-  }, [provider.connection, mint]);
+  
+  }, []);
 
   if (asyncMintInfo.result) {
     return asyncMintInfo.result;

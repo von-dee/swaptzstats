@@ -50,7 +50,6 @@ export default function Swap(props: SwapProps): ReactElement {
     contentStyle,
     swapTokenContainerStyle,
     materialTheme,
-    provider,
     tokenList,
     fromMint,
     toMint,
@@ -60,7 +59,7 @@ export default function Swap(props: SwapProps): ReactElement {
   } = props;
 
   // @ts-ignore
-  const swapClient = new SwapClient(provider, tokenList);
+  const swapClient = new SwapClient(tokenList);
   const theme = createMuiTheme(
     materialTheme || {
       palette: {
@@ -81,7 +80,7 @@ export default function Swap(props: SwapProps): ReactElement {
   return (
     <ThemeProvider theme={theme}>
       <TokenListContextProvider tokenList={tokenList}>
-        <TokenContextProvider provider={provider}>
+        {/* <TokenContextProvider >  */}
           <DexContextProvider swapClient={swapClient}>
             <SwapContextProvider
               fromMint={fromMint}
@@ -97,7 +96,7 @@ export default function Swap(props: SwapProps): ReactElement {
               />
             </SwapContextProvider>
           </DexContextProvider>
-        </TokenContextProvider>
+        {/* </TokenContextProvider> */}
       </TokenListContextProvider>
     </ThemeProvider>
   );
@@ -111,7 +110,7 @@ export type SwapProps = {
    * Wallet and network provider. Apps can use a `Provider` subclass to hook
    * into all transactions intitiated by the component.
    */
-  provider: Provider;
+  // provider: Provider;
 
   /**
    * Token list providing information for tokens used.

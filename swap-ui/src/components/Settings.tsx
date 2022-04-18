@@ -186,8 +186,6 @@ function SettingsDetails() {
           variant="contained"
           fullWidth
           style={{ color: "#fff" }}
-          
-          disabled={swapClient.program.provider.wallet.publicKey === null}
           onClick={() => setShowSettingsDialog(true)}
         >
           Manage Dex Accounts

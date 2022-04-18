@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { PublicKey } from "@solana/web3.js";
 import { TokenInfo } from "@solana/spl-token-registry";
 import {
   makeStyles,
@@ -50,7 +49,7 @@ export default function TokenDialog({
 }: {
   open: boolean;
   onClose: () => void;
-  setMint: (mint: PublicKey) => void;
+  setMint: (mint: any) => void;
 }) {
   const [tabSelection, setTabSelection] = useState(0);
   const [tokenFilter, setTokenFilter] = useState("");
@@ -163,9 +162,9 @@ function TokenListItem({
   onClick,
 }: {
   tokenInfo: TokenInfo;
-  onClick: (mint: PublicKey) => void;
+  onClick: (mint: any) => void;
 }) {
-  const mint = new PublicKey(tokenInfo.address);
+  const mint = tokenInfo.address;
   return (
     <ListItem
       button
