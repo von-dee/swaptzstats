@@ -59,7 +59,7 @@
   "tokens": [
     {
       "chainId": 101,
-      "address": "AjkPkq3nsyDe1yKcbyZT7N4aK4Evv9om9tzhQD3wsRC",
+      "address": "tez",
       "symbol": "TEZ",
       "name": "Tezos",
       "decimals": 8,
@@ -79,7 +79,7 @@
     },
     {
       "chainId": 101,
-      "address": "9LzCMqDgTKYz9Drzqnpgee3SGa89up3a247ypMj2xrqM",
+      "address": "KT1VowcKqZFGhdcDZA3UN1vrjBLmxV5bxgfJ",
       "symbol": "QUIPU",
       "name": "Quipuswap Governance Token",
       "decimals": 8,
@@ -99,7 +99,7 @@
     },
     {
       "chainId": 101,
-      "address": "HZRCwxP2Vq9PCpPXooayhJ2bxTpo5xfpQrwB1svh332p",
+      "address": "KT1Dr8Qf9at75uEvwN4QnGTNFfPMAr8KL4kK",
       "symbol": "FA12",
       "name": "FA12 Token",
       "decimals": 8,
@@ -119,7 +119,7 @@
     },
     {
       "chainId": 101,
-      "address": "DQP2edsDc4bApMaQ4pRim6AE18yCjHpohFLhnWbxc4um",
+      "address": "KT1P4m4Px5WzEnsoz9Ab22rfbcjfjegUoapA",
       "symbol": "FA1218",
       "name": "FA12 18 Decimals Token",
       "decimals": 8,
@@ -139,7 +139,7 @@
     },
     {
       "chainId": 101,
-      "address": "EjmyN6qEC1Tf1JxiG1ae7UTJhUxSwk1TCWNWqxWV4J6o",
+      "address": "KT1CaWSNEnU6RR9ZMSSgD5tQtQDqdpw4sG83",
       "symbol": "TS",
       "name": "TypeScript Token",
       "decimals": 8,
@@ -159,7 +159,7 @@
     },
     {
       "chainId": 101,
-      "address": "EzfgjvkSwthhgHaceR3LnKXUoRkP6NUhfghdaHAj1tUv",
+      "address": "KT1QGgr6k1CDf4Svd18MtKNQukboz8JzRPd5",
       "symbol": "RCT",
       "name": "React Token",
       "decimals": 8,
@@ -179,7 +179,7 @@
     },
     {
       "chainId": 101,
-      "address": "9vMJfxuKxXBoEa7rM12mYLMwTacLMLDJqHozw96WQL8i",
+      "address": "KT1FGZHSZJD5BKeW4S8ZibAnL2tJtuLACd4N",
       "symbol": "ANG",
       "name": "Angular Token",
       "decimals": 8,
@@ -199,7 +199,7 @@
     },
     {
       "chainId": 101,
-      "address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+      "address": "KT1SaouedthKUtAujiBD232mZYGtKwpZ6mFD",
       "symbol": "TKR",
       "name": "Tinker",
       "decimals": 8,
