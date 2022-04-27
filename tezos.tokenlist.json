@@ -59,6 +59,7 @@
   "tokens": [
     {
       "chainId": 101,
+      "type": "FA2",
       "address": "tez",
       "symbol": "TEZ",
       "name": "Tezos",
@@ -80,6 +81,7 @@
     },
     {
       "chainId": 101,
+      "type": "FA2",
       "address": "KT1VowcKqZFGhdcDZA3UN1vrjBLmxV5bxgfJ",
       "symbol": "QUIPU",
       "name": "Quipuswap Governance Token",
@@ -101,6 +103,7 @@
     },
     {
       "chainId": 101,
+      "type": "FA2",
       "address": "KT1Dr8Qf9at75uEvwN4QnGTNFfPMAr8KL4kK",
       "symbol": "FA12",
       "name": "FA12 Token",
@@ -122,6 +125,7 @@
     },
     {
       "chainId": 101,
+      "type": "FA2",
       "address": "KT1P4m4Px5WzEnsoz9Ab22rfbcjfjegUoapA",
       "symbol": "FA1218",
       "name": "FA12 18 Decimals Token",
@@ -143,6 +147,7 @@
     },
     {
       "chainId": 101,
+      "type": "FA2",
       "address": "KT1CaWSNEnU6RR9ZMSSgD5tQtQDqdpw4sG83",
       "symbol": "TS",
       "name": "TypeScript Token",
@@ -164,6 +169,7 @@
     },
     {
       "chainId": 101,
+      "type": "FA2",
       "address": "KT1QGgr6k1CDf4Svd18MtKNQukboz8JzRPd5",
       "symbol": "RCT",
       "name": "React Token",
@@ -185,6 +191,7 @@
     },
     {
       "chainId": 101,
+      "type": "FA2",
       "address": "KT1FGZHSZJD5BKeW4S8ZibAnL2tJtuLACd4N",
       "symbol": "ANG",
       "name": "Angular Token",
@@ -206,6 +213,7 @@
     },
     {
       "chainId": 101,
+      "type": "FA2",
       "address": "KT1SaouedthKUtAujiBD232mZYGtKwpZ6mFD",
       "symbol": "TKR",
       "name": "Tinker",
