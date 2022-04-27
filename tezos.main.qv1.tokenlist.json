@@ -81,7 +81,7 @@
     },
     {
       "chainId": 101,
-      "type": "FA2",
+      "type": "token",
       "fa2TokenId": 0,
       "address": "KT193D4vozYnhGJQVtw7CoxxqphqUEEwK6Vb",
       "dexaddress": "KT1X3zxdTzPB9DgVzA3ad6dgZe9JEamoaeRy",
@@ -105,7 +105,7 @@
     },
     {
       "chainId": 101,
-      "type": "FA2",
+      "type": "token",
       "fa2TokenId": 0,
       "address": "KT1K9gCRgaLRFKTErYt1wVxA3Frb9FjasjTV",
       "dexaddress": "KT1X3zxdTzPB9DgVzA3ad6dgZe9JEamoaeRy",
