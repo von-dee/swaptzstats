@@ -1,0 +1,136 @@
+{
+  "name": "Solana Token List",
+  "logoURI": "https://cdn.jsdelivr.net/gh/trustwallet/assets@master/blockchains/solana/info/logo.png",
+  "keywords": [
+    "solana",
+    "spl"
+  ],
+  "tags": {
+    "stablecoin": {
+      "name": "stablecoin",
+      "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
+    },
+    "ethereum": {
+      "name": "ethereum",
+      "description": "Asset bridged from ethereum"
+    },
+    "lp-token": {
+      "name": "lp-token",
+      "description": "Asset representing liquidity provider token"
+    },
+    "wrapped-sollet": {
+      "name": "wrapped-sollet",
+      "description": "Asset wrapped using sollet bridge"
+    },
+    "wrapped": {
+      "name": "wrapped",
+      "description": "Asset wrapped using wormhole bridge"
+    },
+    "leveraged": {
+      "name": "leveraged",
+      "description": "Leveraged asset"
+    },
+    "bull": {
+      "name": "bull",
+      "description": "Leveraged Bull asset"
+    },
+    "bear": {
+      "name": "bear",
+      "description": "Leveraged Bear asset"
+    },
+    "nft": {
+      "name": "nft",
+      "description": "Non-fungible token"
+    },
+    "security-token": {
+      "name": "security-token",
+      "description": "Tokens that are used to gain access to an electronically restricted resource"
+    },
+    "utility-token": {
+      "name": "utility-token",
+      "description": "Tokens that are designed to be spent within a certain blockchain ecosystem e.g. most of the SPL-Tokens"
+    },
+    "tokenized-stock": {
+      "name": "tokenized-stock",
+      "description": "Tokenized stocks are tokenized derivatives that represent traditional securities, particularly shares in publicly firms traded on regulated exchanges"
+    }
+  },
+  "timestamp": "2021-03-03T19:57:21+0000",
+  "tokens": [
+    {
+      "chainId": 101,
+      "type": "xtz",
+      "address": "XTZ",
+      "symbol": "XTZ",
+      "name": "Tezos",
+      "decimals": 8,
+      "logoURI": "https://cloudflare-ipfs.com/ipfs/Qmf3brydfr8c6CKGUUu73Dd7wfBw66Zbzof5E1BWGeU222",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x111111111117dC0aa78b770fA6A738034120C302",
+        "type": "FA12",
+        "assetContract": "https://etherscan.io/address/0x111111111117dC0aa78b770fA6A738034120C302",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "1inch",
+        "serumV3Usdc": "EQcNRGwogvYJDizG9Ek1qf6syi5UghkYDcUwgmycawYU",
+        "serumV3Usdt": "B3UpqhaGZc9yXhELknAAXuAoKzCk4QAoqaiVUffgMQBH"
+      }
+    },
+    {
+      "chainId": 101,
+      "type": "FA2",
+      "fa2TokenId": 0,
+      "address": "KT193D4vozYnhGJQVtw7CoxxqphqUEEwK6Vb",
+      "dexaddress": "KT1X3zxdTzPB9DgVzA3ad6dgZe9JEamoaeRy",
+      "symbol": "QUIPU",
+      "name": "Quipuswap Governance Token",
+      "decimals": 8,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/13316.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x111111111117dC0aa78b770fA6A738034120C302",
+        "type": "FA2",
+        "assetContract": "https://etherscan.io/address/0x111111111117dC0aa78b770fA6A738034120C302",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "1inch",
+        "serumV3Usdc": "EQcNRGwogvYJDizG9Ek1qf6syi5UghkYDcUwgmycawYU",
+        "serumV3Usdt": "B3UpqhaGZc9yXhELknAAXuAoKzCk4QAoqaiVUffgMQBH"
+      }
+    },
+    {
+      "chainId": 101,
+      "type": "FA2",
+      "fa2TokenId": 0,
+      "address": "KT1K9gCRgaLRFKTErYt1wVxA3Frb9FjasjTV",
+      "dexaddress": "KT1X3zxdTzPB9DgVzA3ad6dgZe9JEamoaeRy",
+      "symbol": "KUSD",
+      "name": "Kolibri",
+      "decimals": 8,
+      "logoURI": "https://kolibri-data.s3.amazonaws.com/logo.png",
+      "tags": [
+        "wrapped",
+        "ethereum"
+      ],
+      "extensions": {
+        "address": "0x111111111117dC0aa78b770fA6A738034120C302",
+        "type": "FA2",
+        "assetContract": "https://etherscan.io/address/0x111111111117dC0aa78b770fA6A738034120C302",
+        "bridgeContract": "https://etherscan.io/address/0x3ee18B2214AFF97000D974cf647E7C347E8fa585",
+        "coingeckoId": "1inch",
+        "serumV3Usdc": "EQcNRGwogvYJDizG9Ek1qf6syi5UghkYDcUwgmycawYU",
+        "serumV3Usdt": "B3UpqhaGZc9yXhELknAAXuAoKzCk4QAoqaiVUffgMQBH"
+      }
+    }
+  ],
+  "version": {
+    "major": 0,
+    "minor": 3,
+    "patch": 3
+  }
+}
