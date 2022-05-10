@@ -33,30 +33,6 @@
         "name": "GOLD Token",
         "thumbnailUri": "https://ipfs.io/ipfs/QmSjHurqeafCMnZHXAauuph7TB8uwmArY1DqABFdv5FiFV"
       }
-    },
-    {
-      "network": "ithacanet",
-      "type": "FA2",
-      "contractAddress": "KT1SMhGgVwhm2JQjU4hDcpt4w1p7brxxFRPD",
-      "fa2TokenId": 0,
-      "metadata": {
-        "decimals": 8,
-        "symbol": "wWBTC",
-        "name": "Wrapped WBTC",
-        "thumbnailUri": "https://ipfs.io/ipfs/Qmdj6n9T48LDWex8NkBMKUQJfZgardxZVdtRRibYQVzLCJ"
-      }
-    },
-    {
-      "network": "ithacanet",
-      "type": "FA2",
-      "contractAddress": "KT1XH2e9mwvZmR7NBcx1qwskZKxePtMwheak",
-      "fa2TokenId": 0,
-      "metadata": {
-        "decimals": 18,
-        "symbol": "wWETH",
-        "name": "Wrapped WETH",
-        "thumbnailUri": "https://ipfs.io/ipfs/Qmezz1ztvo5JFshHupBEdUzVppyMfJH6K4kPjQRSZp8cLq"
-      }
     }
   ]
 }
