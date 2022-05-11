@@ -33,6 +33,18 @@
         "name": "GOLD Token",
         "thumbnailUri": "https://ipfs.io/ipfs/QmSjHurqeafCMnZHXAauuph7TB8uwmArY1DqABFdv5FiFV"
       }
+    },
+    {
+      "network": "ithacanet",
+      "type": "FA12",
+      "contractAddress": "KT1NMVxPKqDrV2tNXbdUgKhP7fGuinLuBvkx",
+      "metadata": {
+        "decimals": 6,
+        "symbol": "SFO",
+        "name": "San Francisco Coin",
+        "thumbnailUri": "https://ipfs.io/ipfs/QmbN1mKD7T4XMRfrzFZnV449cRgXDmtsgPeUXYyn8ZbLch"
+      }
     }
+
   ]
 }
