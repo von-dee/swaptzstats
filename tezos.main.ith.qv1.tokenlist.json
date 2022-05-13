@@ -107,7 +107,6 @@
     {
       "chainId": 101,
       "type": "token",
-      "fa2TokenId": 0,
       "address": "KT1NMVxPKqDrV2tNXbdUgKhP7fGuinLuBvkx",
       "dexaddress": "KT1ERT5yJQNZ26dAr47GYbUACNqd3B7cHvxj",
       "symbol": "SFO",
@@ -131,7 +130,6 @@
     {
       "chainId": 101,
       "type": "token",
-      "fa2TokenId": 0,
       "address": "KT1Go4vNcCT7YzyH6F3UEH8KGaiRRUPXBiDQ",
       "dexaddress": "KT1QwUFWwzS2KbAgBaTFWuQrLg5yuRE39pSM",
       "symbol": "DBC",
@@ -155,7 +153,6 @@
     {
       "chainId": 101,
       "type": "token",
-      "fa2TokenId": 0,
       "address": "KT1Mc3uaMYUsiZEKL3jZVac2ChDq6nj951tC",
       "dexaddress": "KT1NHTzusTUXXbkJm3GfKYKCYvq9gzNUrx3P",
       "symbol": "ACC",
