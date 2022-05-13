@@ -15,28 +15,6 @@
     {
       "network": "ithacanet",
       "type": "FA12",
-      "contractAddress": "KT1BRxbKjhRabGSB6saqK6QrBenaSvFJSgHu",
-      "metadata": {
-        "decimals": 10,
-        "symbol": "Apple",
-        "name": "Apple Token",
-        "thumbnailUri": "https://ipfs.io/ipfs/QmVrwGoCc2K55wPM92Tkrj79iNdZsKNn2NxJAtA21D1eJh"
-      }
-    },
-    {
-      "network": "ithacanet",
-      "type": "FA12",
-      "contractAddress": "KT1PzyU2nXYW8RkoFqmqWPFCA7bgC7yGNRoC",
-      "metadata": {
-        "decimals": 12,
-        "symbol": "GOLD",
-        "name": "GOLD Token",
-        "thumbnailUri": "https://ipfs.io/ipfs/QmSjHurqeafCMnZHXAauuph7TB8uwmArY1DqABFdv5FiFV"
-      }
-    },
-    {
-      "network": "ithacanet",
-      "type": "FA12",
       "contractAddress": "KT1TADwm52SqioK1eqiMxLiEyfV2SxwCofCz",
       "metadata": {
         "decimals": 6,
