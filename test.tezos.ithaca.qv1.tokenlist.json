@@ -37,24 +37,34 @@
     {
       "network": "ithacanet",
       "type": "FA12",
-      "contractAddress": "KT1TADwm52SqioK1eqiMxLiEyfV2SxwCofCz",
+      "contractAddress": "KT1NMVxPKqDrV2tNXbdUgKhP7fGuinLuBvkx",
       "metadata": {
         "decimals": 6,
-        "symbol": "NYC",
-        "name": "New York Coin",
-        "thumbnailUri": "https://ipfs.tzstats.com/ipfs/Qmf8cHKCSruEQkguzyahGfAQjEDzm5kZLhYNJuyt1uyVqL"
+        "symbol": "SFO",
+        "name": "San Francisco Coin",
+        "thumbnailUri": "https://ipfs.io/ipfs/QmbN1mKD7T4XMRfrzFZnV449cRgXDmtsgPeUXYyn8ZbLch"
       }
     },
     {
       "network": "ithacanet",
       "type": "FA12",
-      "contractAddress": "KT1N1o4HRYFFWcZvUpBwPMM1HrsDboUN1PUQ",
+      "contractAddress": "KT1Go4vNcCT7YzyH6F3UEH8KGaiRRUPXBiDQ",
       "metadata": {
         "decimals": 6,
-        "symbol": "BER",
-        "name": "Berlin Coin",
-        "thumbnailUri": "https://ipfs.tzstats.com/ipfs/QmWxebZC6UbdBwzQX7Uh25QBxf18CktVwt4X3MqbB3S2vc"
-        
+        "symbol": "DBC",
+        "name": "Dubai Coin",
+        "thumbnailUri": "https://ipfs.io/ipfs/QmTWPni9zoXoKAG5wXrCbaeHEiezQU3DUVeinPYH3wg5x5"
+      }
+    },
+    {
+      "network": "ithacanet",
+      "type": "FA12",
+      "contractAddress": "KT1Mc3uaMYUsiZEKL3jZVac2ChDq6nj951tC",
+      "metadata": {
+        "decimals": 6,
+        "symbol": "ACC",
+        "name": "Accra Coin",
+        "thumbnailUri": "https://ipfs.io/ipfs/QmdCq5ADwiwEaYvCg7Q5oZ9Hg45NjszjQMHMszxD5jDFiZ"
       }
     }
 
